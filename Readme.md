@@ -20,4 +20,19 @@ En OTRO terminal empaquetar el proyecto e instalarlo en el emulador.
 $ npx react-native run-android
 ```
 
+# Levantar el API rest
+Primero instalar de manera global JSON-SERVER (puede consultar la documentacion aqui https://github.com/typicode/json-server)
+```
+$ npm install -g json-server
+```
+
+En OOOOTRO terminal (en un cmd o consola o terminal de VSCode) iniciar el siguiente comando
+```
+$ json-server -p 5000 --watch db-api/db.json
+```
+
+En OTRO terminal empaquetar el proyecto e instalarlo en el emulador.
+```
+$ npx react-native run-android
+```
 
